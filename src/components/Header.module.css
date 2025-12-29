@@ -5,7 +5,8 @@
   gap: 3rem;
   height: 15rem;
   padding: 5rem;
-  background-color: var(--primary-light);
+  background-color: var(--bg-card);
+  border-bottom: 1px solid var(--border);
 
   position: fixed;
   top: 0;
@@ -17,7 +18,7 @@
 .container h1 {
   font-size: 5rem;
   font-weight: bolder;
-  color: var(--primary-dark);
+  color: var(--primary);
 }
 
 .containerImg img {
